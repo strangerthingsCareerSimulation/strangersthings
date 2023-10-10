@@ -9,6 +9,7 @@ import Login from "./components/login.jsx";
 import Logout from "./components/logout.jsx";
 import Signup from "./components/signup.jsx";
 import Home from "./components/home.jsx";
+import CreatePost from "./components/createpost.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -20,6 +21,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route path="/login" element={<Login />} />
         <Route path="/logout" element={<Logout />} />
         <Route path="/signup" element={<Signup />} />
+        <Route path="/createPost" element={<CreatePost />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

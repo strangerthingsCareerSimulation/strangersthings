@@ -4,7 +4,9 @@ import './App.css'
 
 
 function App() {
- 
+  //  const authToken this should be null
+  // function called handle auth it should take a token should set auth token
+  // singup link should pass a handle auth to signup
   return (
     <>
       <div>
@@ -13,6 +15,8 @@ function App() {
         <Link to="/logout">Logout</Link>
         <Link to="/signup">Signup</Link>
         <Link to="/allposts">All Posts</Link>
+        <Link to="/createPost">Create Posts</Link>
+        {/* you should pass the auth token as a prop */}
       </div>
     </>
   );

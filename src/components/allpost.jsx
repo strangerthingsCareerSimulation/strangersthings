@@ -31,6 +31,8 @@ function AllPosts() {
             <p>description: {post.description}</p>
             <p>price: {post.price}</p>
             <p>location: {post.location}</p>
+
+            
           </div>
         ))}
       </div>

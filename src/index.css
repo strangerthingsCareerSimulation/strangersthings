@@ -1,12 +1,29 @@
-.registerForm{
+#navbarSupportedContent {
+  justify-content: end;
+  padding-right: 5%;
+}
+
+form {
   width: 80%;
   margin: 0 auto;
 }
 
-.form-group{
-  padding: 10px 0; 
+.form-group {
+  padding: 10px 0;
 }
 
-#registerForm{
-  justify-content: end; 
+.center {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  height: 50px;
+}
+
+.table{
+  width: 80%;
+  margin: 0 auto;
 }

@@ -44,11 +44,13 @@ function Signup() {
         <h1>Signup</h1>
         <form onSubmit={handleSubmit}>
           {/* Labels and inputs for form data */}
+
           <label className="label">User Name</label>
           <input
             className="input"
             name="username"
             type="text"
+            required
             value={formData.username}
             onChange={handleChange}
           />
@@ -58,9 +60,11 @@ function Signup() {
             className="input"
             name="password"
             type="password"
+            required
             value={formData.password}
             onChange={handleChange}
           />
+          
 
           <button className="btn" type="submit">
             Submit
@@ -69,6 +73,8 @@ function Signup() {
       </div>
     </>
   );
+
+  
 }
 
 export default Signup;
